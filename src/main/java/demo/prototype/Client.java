@@ -9,7 +9,7 @@ package demo.prototype;
  */
 public class Client {
     public static void main(String[] args) {
-
+        System.out.println("addMessage111啥的");
         PrototypeImplOne prototypeImplOne = new PrototypeImplOne();
         Prototype clone = prototypeImplOne.clone();
         System.out.println(clone);
