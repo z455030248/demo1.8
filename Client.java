@@ -10,6 +10,7 @@ package demo.proxy;
 public class Client {
 
     public static void main(String[] args) {
+        System.out.println("addMessage");
         Subject realySubiect = new RealySubiect();
         Proxy proxy = new Proxy(realySubiect);
         proxy.request();
