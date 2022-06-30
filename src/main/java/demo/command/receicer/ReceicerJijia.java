@@ -1,0 +1,22 @@
+package demo.command.receicer;
+
+/**
+ * @ClassName ReceicerJijia
+ * @Description TODO
+ * @Author zhouchao
+ * @Date 2022/4/10 13:16
+ * @Version 1.0
+ */
+
+public class ReceicerJijia implements Receicer{
+    @Override
+    public void openAction() {
+        System.out.println("技嘉主板开机了");
+    }
+
+    @Override
+    public void closeAction() {
+        System.out.println("技嘉主板关机了");
+
+    }
+}
